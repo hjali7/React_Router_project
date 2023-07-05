@@ -1,0 +1,35 @@
+.nav_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    padding:2rem;
+    box-shadow: var(--shadow-2);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.nav_container_logo {
+    flex: 1;
+}
+.nav_container_logo h2 {
+    font-size: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #0c0219;
+}
+
+.nav_container_link {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
