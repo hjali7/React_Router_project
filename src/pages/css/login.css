@@ -1,0 +1,32 @@
+section {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    border: 2px solid #ccc;
+    border-radius: 2rem;
+}
+
+form h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+label {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form-inputs {
+    box-shadow: var(--shadow-4);
+    background: #ccc;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}

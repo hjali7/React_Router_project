@@ -17,12 +17,16 @@
 .products_container_links {
     display: grid;
     grid-template-columns: repeat(3 ,2fr);
-
+    margin-bottom: 2rem;
+    gap: 10px;
 }
 
 .products_container_links article {
     width: 150px;
     height: 150px;
     margin: auto;
-
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-4);
 }

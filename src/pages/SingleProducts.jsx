@@ -1,13 +1,22 @@
-import React from 'react'
 import Allproducts from '../data'
 import {Link , useParams} from 'react-router-dom'
+import './css/singleproduct.css'
 
 function SingleProducts() {
   const {productId} = useParams()
-  console.log(productId)
+  const product = Allproducts.find(product => product.id === productId)
+  const {name , image} = product
   return (
-    <div>
-      
+    <div className='single_container'>
+      <h1>{name}</h1>
+      <div>
+        <img src={image} alt='product image' />
+      </div>
+      <Link to ='/products'>
+        <button type="button" className='btn' style={{marginBottom : '2rem'}}>
+          Back To Products List
+        </button>
+      </Link>
     </div>
   )
 }

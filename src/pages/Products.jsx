@@ -9,11 +9,11 @@ function Products() {
       <h1>Our Products</h1>
       <div className="products_container_links">
         {Allproducts.map(product => {
-          const { name , id} = product
+          const { name , id } = product
           return (
             <article key={id}>
                 <h4>{name}</h4>
-                <Link to={`/products/${id}`}>show more</Link>
+                <Link to={`/products/${id}`} className="btn">show more</Link>
             </article>
           )
         })}
