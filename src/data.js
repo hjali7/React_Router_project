@@ -1,4 +1,4 @@
-const products = [
+const Allproducts = [
   {
     id: 'recZkNf2kwmdBcqd0',
     name: 'accent chair',
@@ -32,6 +32,12 @@ const products = [
     image:
       'https://res.cloudinary.com/dt2g7mgtv/image/upload/v1681751026/react-comfy-store-products/product-5_n184nu.jpg',
   },
+  {
+    id: 'recoM2MyHJGHLVi6l',
+    name: 'bar stool',
+    image:
+      'https://res.cloudinary.com/dt2g7mgtv/image/upload/v1681751026/react-comfy-store-products/product-5_n184nu.jpg',
+  },
 ];
 
-export default products;
+export default Allproducts;

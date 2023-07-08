@@ -1,0 +1,28 @@
+.products_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.products_container h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    
+}
+
+.products_container_links {
+    display: grid;
+    grid-template-columns: repeat(3 ,2fr);
+
+}
+
+.products_container_links article {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+
+}
